@@ -24,8 +24,8 @@
     </linearGradient>
 
     <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
     </linearGradient>
 
     <!-- Filters for Glow Effects -->
@@ -35,22 +35,22 @@
     </filter>
 
     <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.5" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.6" />
     </filter>
   </defs>
 
   <style>
     @keyframes pulseOrb {
-      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      0%, 100% { transform: scale(1) translate(0px, 0px); opacity: 0.35; }
       50% { transform: scale(1.15) translate(25px, -15px); opacity: 0.65; }
     }
     @keyframes floatPillSlow {
       0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-10px); }
+      50% { transform: translateY(-8px); }
     }
     @keyframes floatPillFast {
       0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-14px); }
+      50% { transform: translateY(-12px); }
     }
     @keyframes cursorMove {
       0% { transform: translate(160px, 310px); }
@@ -224,11 +224,11 @@
     <!-- Tech Specs / Highlights Sub-row -->
     <g transform="translate(600, 272)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">
       <text>
-        <tspan fill="#38bdf8">●</tspan> Claude Computer Use &nbsp;&nbsp;|&nbsp;&nbsp; 
-        <tspan fill="#818cf8">●</tspan> Browser-Use &nbsp;&nbsp;|&nbsp;&nbsp; 
-        <tspan fill="#c084fc">●</tspan> OpenAI Operator &nbsp;&nbsp;|&nbsp;&nbsp; 
-        <tspan fill="#34d399">●</tspan> UI-TARS &nbsp;&nbsp;|&nbsp;&nbsp; 
-        <tspan fill="#f472b6">●</tspan> Stagehand &amp; Playwright
+        <tspan fill="#38bdf8">&#9679;</tspan> Claude Computer Use &#160;&#160;|&#160;&#160; 
+        <tspan fill="#818cf8">&#9679;</tspan> Browser-Use &#160;&#160;|&#160;&#160; 
+        <tspan fill="#c084fc">&#9679;</tspan> OpenAI Operator &#160;&#160;|&#160;&#160; 
+        <tspan fill="#34d399">&#9679;</tspan> UI-TARS &#160;&#160;|&#160;&#160; 
+        <tspan fill="#f472b6">&#9679;</tspan> Stagehand &amp; Playwright
       </text>
     </g>
   </g>
