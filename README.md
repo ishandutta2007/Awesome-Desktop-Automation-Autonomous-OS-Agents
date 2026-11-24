@@ -8,7 +8,7 @@
 
 <p align="left">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Dsscord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
@@ -69,9 +69,9 @@ The following SaaS and hosted platforms provide managed infrastructure, cloud br
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore the premier open-source frameworks, desktop sandboxes, and browser drivers power-charging autonomous agents. Repositories are ordered in descending rank by GitHub Star count. 🌟
+Explore the premier open-source frameworks, desktop sandboxes, and browser drivers power-charging autonomous agents. Repositories are ordered in descending rank by GitHub Stars_Count. 🌟
 
-| Project & Repo Link | GitHub Stars | Core Language / Stack | Primary Focus & Category | Key Features & Notes |
+| Project & Repo Link | GitHub_Stars | Core Language / Stack | Primary Focus & Category | Key Features & Notes |
 | :--- | :---: | :--- | :--- | :--- |
 | **[browser-use](https://github.com/browser-use/browser-use)** | [![Stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers) | Python / Playwright | Autonomous Web Agent | Connects any LLM (OpenAI, Anthropic, DeepSeek, Ollama) to Playwright for multi-tab web navigation, form handling, and extraction. |
 | **[Playwright](https://github.com/microsoft/playwright)** | [![Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers) | TypeScript / Python / C# | Core Browser Automation Engine | The industry standard for Chromium, Firefox, and WebKit automation; foundational execution layer for modern AI web agents. |
@@ -141,7 +141,7 @@ Contributions make the open-source community thrive! 🌟
 1. 🍴 **Fork the repository**.
 2. 📝 **Add or update entries** in `README.md` following the table schema:
    - For SaaS products: include official link, company size/valuation, specific starting price, and specific free tier/trial limits.
-   - For Open-Source projects: include GitHub repo link, star badge (`style=social&color=white` linking to stargazers), language, category, and description.
+   - For Open-Source projects: include GitHub repo link, Stars_Badge (`style=social&color=white` linking to stargazers), language, category, and description.
 3. 🎯 **Keep descriptions concise, factual, and neutral**.
 4. 🚀 **Submit a Pull Request** with a descriptive title.
 
