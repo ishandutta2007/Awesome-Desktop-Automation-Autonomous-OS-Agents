@@ -1,255 +1,143 @@
-# Awesome-Desktop-Automation-Autonomous-OS-Agents
+# Awesome Desktop Automation & Autonomous OS Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-markdown
+> A curated list of **Autonomous OS Agents**, **Computer-Use AI**, **Desktop Automation Frameworks**, **GUI Agents**, and **AI Browser Automation Runtimes**.
 
-## Top Desktop Automation & Autonomous OS Agents Ecosystem
+[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents?style=social)](https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents?style=social)](https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/network/members)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/pulls)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+---
 
+## Overview
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+Welcome to the definitive ecosystem directory tracking **Autonomous OS Agents**, **Computer-Using Agents (CUA)**, **VLM Desktop Controllers**, and **Headless Cloud Browser Grids**. These autonomous systems observe screens, interpret graphical user interfaces (GUIs) across macOS, Windows, and Linux via Vision-Language Models (VLMs) and accessibility trees, and orchestrate mouse clicks, keyboard keystrokes, and complex multi-app workflows.
 
-*Focused on Autonomous GUI & OS Agents, Vision-Language Desktop Control, Browser Automation Agents, Headless Cloud Browsers & Sandboxed Desktop Runtimes*  
+Whether you are building next-generation Robotic Process Automation (RPA), autonomous web-scraping agents, automated QA testing pipelines, or self-operating computers, this directory indexes both leading commercial platforms and top open-source projects.
 
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Desktop Automation & Autonomous OS Agents**. These tools perceive, click, type, navigate, and automate native desktop operating systems (macOS, Windows, Linux) and web browsers using Vision-Language Models (VLMs), accessibility trees, headless browser grids, and sandboxed virtual desktops.
-
-
-
-**Examples** include Adequate / Adept, MultiOn, Operator by OpenAI, Anthropic Computer Use, HyperWrite, induced.ai, Lindy, Simular, Playwright Cloud, Browserbase, and vercel-labs/agent-desktop (the category leaders and popular runtimes). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for autonomous desktop & OS control (`vercel-labs/agent-desktop`, `UI-TARS Desktop`, `Open Interpreter`, `Self-Operating Computer`, `Cua / Computer-Use Agent`, `OmniParser`), AI browser automation agents (`Browser-Use`, `Skyvern`, `Stagehand`, `LaVague`), and foundational automation engines (`Playwright`, `PyAutoGUI`, `OSWorld`) — ideal for AI agent engineers, RPA/QA automation teams, and developers building computer-use agents.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
+- [Key Architectural Patterns](#key-architectural-patterns)
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+---
 
+## Sector Overview & Market Dynamics
+
+The global **Autonomous AI Agents & Computer-Use** market is valued at approximately **$5.8B – $10.5B in 2025–2026** and is accelerating at an unprecedented compound annual growth rate (**CAGR of 40% – 46%**), projected to eclipse **$52B – $70B by 2030**. 
+
+The sector exhibits **moderate fragmentation with aggressive foundational consolidation**: frontier AI hyperscalers (Microsoft, OpenAI, Anthropic, Amazon) anchor the underlying vision-reasoning models and cloud VM runtime layers in a winner-take-most dynamic, while specialized vertical startups and open-source ecosystems rapidly proliferate across niche execution runtimes, stealth browser grids, and sandboxed OS virtualization.
+
+---
 
 ## SaaS/Hosted Platforms
 
+The following SaaS and hosted platforms provide managed infrastructure, cloud browser farms, or turnkey computer-operating agents. Sorted in descending order by company scale (market valuation / enterprise capitalization).
 
+| Product / Platform | Company Size (Valuation / Revenue) | Pricing (Starting Paid Tier) | Free Tier / Trial Limits | Description & Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Playwright Cloud (Microsoft Azure Playwright Workspaces)](https://playwright.dev)** | **$3.1T+** Market Cap (Microsoft) | **$0.012 per test minute** (Pay-as-you-go via Azure) | **30-day free trial** with **100 test minutes** included per Azure subscription | Enterprise-grade managed cloud browser infrastructure scaling Playwright suites across hosted Windows and Linux VMs. |
+| **[Anthropic Computer Use (Claude API)](https://anthropic.com)** | **$60B+** Valuation | **$3.00 / $15.00 per 1M tokens** (Claude 3.5 Sonnet / Claude 3.7) | **$5 free credit** upon API registration (expires in 14 days) | Direct multimodal screen-parsing & desktop control API allowing Claude to inspect screenshots, move cursors, and click UI elements. |
+| **[Operator by OpenAI (ChatGPT Agent)](https://openai.com)** | **$157B** Valuation | **$20.00 / month** (ChatGPT Plus) / **$200.00 / month** (Pro) | **Free forever plan** with standard ChatGPT search/voice; Operator preview includes trial tasks for Plus/Pro | Cloud browser-operating autonomous agent powered by Computer-Using Agent (CUA) vision models for multi-step web task execution. |
+| **[Adept / Adequate (Adept AI)](https://adept.ai)** | **$1B** Peak Valuation (~$415M funded; tech licensed to Amazon) | **Custom Enterprise contract** (Technology licensed by Amazon AGI) | **30-day POC / Developer preview trial** on enterprise request | Action-oriented AI models trained on UI interaction to navigate complex multi-app enterprise desktop and web software. |
+| **[Browserbase](https://browserbase.com)** | **$300M** Valuation ($67.5M funded) | **$20.00 / month** (Developer Plan; $99.00 / month Startup) | **Free forever plan**: **1 browser hour/month**, up to 3 concurrent sessions, 15 min max session duration | Managed serverless headless browser platform built for AI agents with session replay, stealth proxies, and Stagehand SDK. |
+| **[MultiOn](https://multion.ai)** | **$100M** Valuation ($20M+ Series A) | **$20.00 / month** (Personal / Pro Tier) | **Free forever plan**: **100 free agent requests/month** with basic API rate limits | Cloud AI agent platform and Chrome extension translating natural-language commands into autonomous browser workflows. |
+| **[Lindy](https://lindy.ai)** | **$50M+** Funding (Battery & Menlo) | **$29.99 / user / month** (includes shared pool of 3,000 credits) | **7-day free trial** with **$50 worth of free credits** (no credit card required) | No-code autonomous assistant builder handling cross-app workflows, email triage, calendar tasks, and browser automation. |
+| **[Simular (Sai)](https://simular.ai)** | **$27M** Total Funding ($21.5M Series A) | **$50.00 / month** (Starter plan; $500.00/mo Unlimited) | **Free forever plan ("Explore")**: Daily refreshed credits with limited cloud Windows computer access | Autonomous personal computer-use agent executing complex desktop app navigation, file manipulation, and browser workflows. |
+| **[Induced AI](https://induced.ai)** | **$2.3M+** Seed Funding (Sam Altman, Peak XV) | **$49.00 / month** (Starter tier; $199.00/month Scale) | **Free trial credits**: Access via `browse.new` with trial minutes (no credit card required) | Cloud autonomous browser-worker turning natural-language SOPs into parallel headless browser sessions with human-like interactions. |
+| **[HyperWrite](https://hyperwriteai.com)** | **$5.4M+** Funding (OthersideAI) | **$19.99 / month** (Premium; $44.99 / month Ultra) | **Free forever plan**: Starter tier with basic AI messages and document editor access | Personal AI assistant featuring an autonomous Chrome browser agent executing web research, data extraction, and form fills. |
 
-- **[Operator by OpenAI (ChatGPT Agent)](https://openai.com)**  
-
-  Cloud browser-operating AI agent powered by Computer-Using Agent (CUA) vision models that interacts with web interfaces via virtual mouse clicks, scrolling, and keyboard input.
-
-
-
-- **[Anthropic Computer Use (Claude API)](https://anthropic.com)**  
-
-  Native multimodal GUI perception and desktop control capability inside Claude models enabling AI agents to inspect screenshots, move cursors, and operate desktop environments.
-
-
-
-- **[Browserbase](https://browserbase.com)**  
-
-  Managed serverless headless browser infrastructure built for AI agents and web scrapers, offering session replay, stealth proxies, CAPTCHA solving, and Playwright/Puppeteer/Stagehand SDKs.
-
-
-
-- **[Adept / Adequate (Adept AI)](https://adept.ai)**  
-
-  Enterprise action-oriented AI agent platform trained on multimodal UI perception to automate complex multi-application desktop and web workflows.
-
-
-
-- **[Simular](https://simular.ai)**  
-
-  Autonomous personal computer-use agent platform combining neuro-symbolic reasoning and vision-language models to execute macOS and browser tasks reliably.
-
-
-
-- **[Lindy](https://lindy.ai)**  
-
-  No-code AI agent automation platform enabling teams to build autonomous computer-use, email, calendar, and cross-app workflow assistants.
-
-
-
-- **[Playwright Cloud (Microsoft Azure Playwright Workspaces)](https://playwright.dev)**  
-
-  Managed cloud browser testing and parallel execution service scaling Playwright browser automation across globally distributed Windows and Linux VMs.
-
-
-
-- **[MultiOn](https://multion.ai)**  
-
-  Cloud AI web agent API and browser extension capable of autonomously booking, researching, and completing multi-step web actions on behalf of users.
-
-
-
-- **[HyperWrite (Personal Assistant & Browser Agent)](https://hyperwriteai.com)**  
-
-  AI personal assistant featuring an autonomous Chrome browser agent that navigates websites, fills forms, and executes research workflows.
-
-
-
-- **[Induced AI](https://induced.ai)**  
-
-  Cloud autonomous browser-worker platform translating natural language SOPs into parallel headless cloud browser sessions with human-like UI interaction.
-
-
-
-
+---
 
 ## Open-Source GitHub Projects
 
+Explore the premier open-source frameworks, desktop sandboxes, and browser drivers power-charging autonomous agents. Repositories are ordered in descending rank by GitHub Star count.
 
+| Project & Repo Link | GitHub Stars | Core Language / Stack | Primary Focus & Category | Key Features & Notes |
+| :--- | :---: | :--- | :--- | :--- |
+| **[browser-use](https://github.com/browser-use/browser-use)** | [![Stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers) | Python / Playwright | Autonomous Web Agent | Connects any LLM (OpenAI, Anthropic, DeepSeek, Ollama) to Playwright for multi-tab web navigation, form handling, and extraction. |
+| **[Playwright](https://github.com/microsoft/playwright)** | [![Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers) | TypeScript / Python / C# | Core Browser Automation Engine | The industry standard for Chromium, Firefox, and WebKit automation; foundational execution layer for modern AI web agents. |
+| **[Open Interpreter](https://github.com/openinterpreter/open-interpreter)** | [![Stars](https://img.shields.io/github/stars/openinterpreter/open-interpreter?style=social&color=white)](https://github.com/openinterpreter/open-interpreter/stargazers) | Python | Local Computer & OS Control | Open-source natural language interface enabling LLMs to execute code locally and operate desktop applications via `OS Mode`. |
+| **[UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop)** | [![Stars](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop?style=social&color=white)](https://github.com/bytedance/UI-TARS-desktop/stargazers) | Python / TypeScript | Multimodal GUI OS Agent | ByteDance's vision-language GUI agent application offering native mouse/keyboard control across macOS, Windows, and browsers. |
+| **[Cua — Computer-Use Agent](https://github.com/trycua/cua)** | [![Stars](https://img.shields.io/github/stars/trycua/cua?style=social&color=white)](https://github.com/trycua/cua/stargazers) | Python / Swift / Shell | Sandboxed Virtualized OS Runtime | High-performance macOS & Linux virtual machine sandbox runtime (`Lume`) designed for safely running and benchmarking OS agents. |
+| **[agent-desktop](https://github.com/vercel-labs/agent-desktop)** | [![Stars](https://img.shields.io/github/stars/vercel-labs/agent-desktop?style=social&color=white)](https://github.com/vercel-labs/agent-desktop/stargazers) | TypeScript | Desktop Agent Architecture | Vercel Labs' open toolkit providing safe, structured desktop perception and native OS control primitives for AI agents. |
+| **[Stagehand](https://github.com/browserbase/stagehand)** | [![Stars](https://img.shields.io/github/stars/browserbase/stagehand?style=social&color=white)](https://github.com/browserbase/stagehand/stargazers) | TypeScript / Playwright | Deterministic AI Web SDK | High-level web browsing SDK with self-healing natural-language primitives (`act`, `extract`, `observe`) built on Playwright. |
+| **[OmniParser](https://github.com/microsoft/OmniParser)** | [![Stars](https://img.shields.io/github/stars/microsoft/OmniParser?style=social&color=white)](https://github.com/microsoft/OmniParser/stargazers) | Python / PyTorch | Screen Parsing & Vision UI Model | Microsoft's screen-parsing vision model parsing UI screenshots into clickable bounding boxes, icon labels, and actionable DOM trees. |
+| **[Skyvern](https://github.com/Skyvern-AI/skyvern)** | [![Stars](https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social&color=white)](https://github.com/Skyvern-AI/skyvern/stargazers) | Python / Playwright | Autonomous Workflow Automation | AI browser automation platform using Vision LLMs to navigate complex portals, dynamic forms, and CAPTCHAs without XPath selectors. |
+| **[E2B](https://github.com/e2b-dev/E2B)** | [![Stars](https://img.shields.io/github/stars/e2b-dev/E2B?style=social&color=white)](https://github.com/e2b-dev/E2B/stargazers) | Python / TypeScript / Go | Secure Cloud Sandboxes | Secure isolated micro-VM sandboxes for AI agents to run code, terminal commands, web browsers, and desktop tools safely. |
+| **[Agent-S](https://github.com/simular-ai/Agent-S)** | [![Stars](https://img.shields.io/github/stars/simular-ai/Agent-S?style=social&color=white)](https://github.com/simular-ai/Agent-S/stargazers) | Python | Autonomous Desktop Agent | Open-source agentic framework by Simular for GUI control across Ubuntu, Windows, and macOS via hierarchical planning and memory. |
+| **[PyAutoGUI](https://github.com/asweigart/pyautogui)** | [![Stars](https://img.shields.io/github/stars/asweigart/pyautogui?style=social&color=white)](https://github.com/asweigart/pyautogui/stargazers) | Python | Native OS Event Simulator | Cross-platform programmatic GUI automation library controlling mouse movements, clicks, and keyboard strokes. |
+| **[Self-Operating Computer](https://github.com/OthersideAI/self-operating-computer)** | [![Stars](https://img.shields.io/github/stars/OthersideAI/self-operating-computer?style=social&color=white)](https://github.com/OthersideAI/self-operating-computer/stargazers) | Python | Multimodal Desktop Controller | Multimodal agent framework enabling GPT-4V/Claude to observe the display screen and operate desktop apps via mouse/keyboard clicks. |
+| **[Steel Browser](https://github.com/steel-dev/steel-browser)** | [![Stars](https://img.shields.io/github/stars/steel-dev/steel-browser?style=social&color=white)](https://github.com/steel-dev/steel-browser/stargazers) | TypeScript / Docker | Self-Hosted Browser API | Open-source, self-hostable headless browser API built for AI agents with session management, stealth CDP, and proxy support. |
+| **[LaVague](https://github.com/lavague-ai/LaVague)** | [![Stars](https://img.shields.io/github/stars/lavague-ai/LaVague?style=social&color=white)](https://github.com/lavague-ai/LaVague/stargazers) | Python | Large Action Model (LAM) | LAM framework translating natural language into executable Selenium and Playwright browser automation workflows. |
+| **[TagUI](https://github.com/aisingapore/TagUI)** | [![Stars](https://img.shields.io/github/stars/aisingapore/TagUI?style=social&color=white)](https://github.com/aisingapore/TagUI/stargazers) | JavaScript / Python / PHP | Open-Source RPA Suite | Free command-line RPA engine automating desktop GUIs, web flows, and OCR across Windows, macOS, and Linux. |
+| **[OSWorld](https://github.com/xlang-ai/OSWorld)** | [![Stars](https://img.shields.io/github/stars/xlang-ai/OSWorld?style=social&color=white)](https://github.com/xlang-ai/OSWorld/stargazers) | Python | OS Agent Benchmark Suite | Benchmark environment evaluating multimodal agents on complex multi-step tasks across real Ubuntu, Windows, and macOS apps. |
+| **[SikuliX](https://github.com/RaiMan/SikuliX1)** | [![Stars](https://img.shields.io/github/stars/RaiMan/SikuliX1?style=social&color=white)](https://github.com/RaiMan/SikuliX1/stargazers) | Java / Python / OpenCV | Visual Pattern GUI Automation | Pioneering visual automation tool using image pattern recognition and OCR to identify and interact with screen UI elements. |
+| **[OpenRPA](https://github.com/open-rpa/openrpa)** | [![Stars](https://img.shields.io/github/stars/open-rpa/openrpa?style=social&color=white)](https://github.com/open-rpa/openrpa/stargazers) | C# / .NET | Enterprise Desktop RPA | Open-source enterprise robot process automation engine with native Windows accessibility tree and UI element recording. |
+| **[Computer Use OOTB](https://github.com/showlab/computer_use_ootb)** | [![Stars](https://img.shields.io/github/stars/showlab/computer_use_ootb?style=social&color=white)](https://github.com/showlab/computer_use_ootb/stargazers) | Python / Gradio | Turnkey GUI Agent UI | Out-of-the-box GUI Agent application for Windows and macOS with simple Gradio interface and VLM backend integrations. |
+| **[Awesome GUI Agent](https://github.com/showlab/awesome-gui-agent)** | [![Stars](https://img.shields.io/github/stars/showlab/awesome-gui-agent?style=social&color=white)](https://github.com/showlab/awesome-gui-agent/stargazers) | Markdown | Research Papers & Resource Index | Curated academic papers, datasets, benchmarks, and agent architectures focused on multimodal graphical interface agents. |
 
-- **[vercel-labs/agent-desktop](https://github.com)**  
+---
 
-  Open-source desktop automation and autonomous OS agent toolkit from Vercel Labs engineered to empower AI agents with safe, structured desktop perception and native OS control.
+## Key Architectural Patterns
 
+Modern autonomous desktop automation systems generally utilize one of three primary architectural paradigms:
 
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                   VLM Agent Reasoner (Claude / GPT-4o)                  │
+└───────────────┬────────────────────────┬───────────────────────────────┘
+                │                        │
+       [Direct Screen Vision]    [DOM / Tree Parsing]
+                ▼                        ▼
+┌──────────────────────────────┐ ┌──────────────────────────────────────┐
+│  Pixel-Coordinate Control    │ │  Accessibility / DOM Actions         │
+│  - OmniParser / UI-TARS      │ │  - Playwright / CDP / Chromium DevTools
+│  - Mouse click(x, y)         │ │  - Stagehand (act / extract)         │
+│  - Keystrokes & shortcuts    │ │  - Accessibility Tree (AXNode)       │
+└───────────────┬──────────────┘ └──────────────────┬───────────────────┘
+                │                                   │
+                ▼                                   ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│               Execution Sandbox & Isolation Environment                │
+│       (Cua / Lume VM · Docker Containers · Steel / Browserbase)        │
+└────────────────────────────────────────────────────────────────────────┘
+```
 
-- **[UI-TARS Desktop (`bytedance/UI-TARS-desktop`)](https://github.com)**  
+1. **Pure Vision-Language GUI Agents**: Capture screenshots, run them through screen-parsing models (e.g. `OmniParser`, `UI-TARS`), and generate mouse click $(x, y)$ coordinates and keystrokes.
+2. **Hybrid Accessibility + DOM Agents**: Combine HTML accessibility trees, DOM selectors, and Playwright CDP sessions for high-accuracy web automation (e.g. `Browser-Use`, `Stagehand`, `Skyvern`).
+3. **Sandboxed Virtualized Runtimes**: Isolate the agent inside secure lightweight virtual machines or disposable cloud browsers to protect the host machine against destructive actions or prompt injection (e.g. `Cua`, `E2B`, `Steel Browser`, `Browserbase`).
 
-  Flagship open-source GUI agent application powered by ByteDance's vision-language `UI-TARS` models for natural-language mouse/keyboard control across macOS, Windows, and browsers.
-
-
-
-- **[Browser-Use (`browser-use/browser-use`)](https://github.com)**  
-
-  Leading open-source Python framework connecting LLMs with Playwright to autonomously navigate websites, extract structured data, and execute multi-step browser tasks.
-
-
-
-- **[Open Interpreter (`openinterpreter/open-interpreter`)](https://github.com)**  
-
-  Popular open-source natural-language interface for computers allowing LLMs to run Python/Bash/AppleScript locally and control OS applications via `OS Mode` vision and GUI actions.
-
-
-
-- **[Cua — Computer-Use Agent (`trycua/cua`)](https://github.com)**  
-
-  Open-source framework and high-performance macOS/Linux virtualized sandbox runtime (`Lume`) built specifically for running and benchmarking autonomous AI computer-use agents safely.
-
-
-
-- **[Self-Operating Computer (`OthersideAI/self-operating-computer`)](https://github.com)**  
-
-  Pioneering open-source framework enabling multimodal models to view the user's screen and operate macOS, Windows, and Linux GUIs via mouse clicks and keystrokes.
-
-
-
-- **[Skyvern (`Skyvern-AI/skyvern`)](https://github.com)**  
-
-  Open-source AI browser automation platform combining Vision LLMs and Playwright to automate complex web workflows, form filling, and login portals without brittle XPath selectors.
-
-
-
-- **[Stagehand (`browserbase/stagehand`)](https://github.com)**  
-
-  Open-source AI web browsing SDK (built on Playwright) offering deterministic code alongside natural-language `act`, `extract`, and `observe` primitives with self-healing caching.
-
-
-
-- **[OmniParser (`microsoft/OmniParser`)](https://github.com)**  
-
-  Essential open-source screen-parsing vision toolkit from Microsoft that converts raw OS/browser screenshots into structured, clickable UI element bounding boxes and semantic icons for VLM agents.
-
-
-
-- **[Playwright (`microsoft/playwright`)](https://github.com)**  
-
-  Industry-standard open-source cross-browser automation and end-to-end testing engine for Chromium, Firefox, and WebKit—serving as the core execution layer for modern AI web agents.
-
-
-
-- **[OSWorld (`xlang-ai/OSWorld`)](https://github.com)**  
-
-  Open-source real-computer environment and benchmark suite evaluating multimodal OS agents across Ubuntu, Windows, and macOS desktop applications (LibreOffice, GIMP, VS Code, Chrome).
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[PyAutoGUI (`asweigart/pyautogui`)](https://github.com)** and **[SikuliX (`RaiMan/SikuliX1`)](https://github.com)** for foundational cross-platform Python/Java GUI automation via programmatic mouse/keyboard events and OpenCV template matching.
-
-- **[LaVague (`lavague-ai/LaVague`)](https://github.com)** for an open-source Large Action Model (LAM) web agent framework pairing World Models with Action Engines over Selenium and Playwright.
-
-- **[Steel (`steel-dev/steel-browser`)](https://github.com)** for an open-source, self-hostable headless browser sandbox API (Browserbase alternative) tailored for AI agents with session management and Puppeteer/Playwright support.
-
-- **[Agent S (`simular-ai/Agent-S`)](https://github.com)** for Simular's open-source agentic framework enabling autonomous human-like interaction with Ubuntu, Windows, and macOS computers via experience-augmented hierarchical planning.
-
-- **[TagUI (`aisingapore/TagUI`)](https://github.com)** and **[OpenRPA (`open-rpa/openrpa`)](https://github.com)** for open-source Robotic Process Automation (RPA) suites automating desktop UI trees, OCR workflows, and enterprise software.
-
-
-
-**Frameworks for building custom systems**: Combine **vercel-labs/agent-desktop** or **UI-TARS Desktop + OmniParser** for local native OS control, **Cua (`trycua/cua`)** for isolated macOS/Linux VM sandboxes, and **Browser-Use** or **Stagehand + Steel** for resilient self-hosted web automation agents.
-
-
+---
 
 ## How to Contribute
 
+1. Fork the repository.
+2. Add or update entries in `README.md` following the table schema:
+   - For SaaS products: include official link, company size/valuation, specific starting price, and specific free tier/trial limits.
+   - For Open-Source projects: include GitHub repo link, star badge (`style=social&color=white` linking to stargazers), language, category, and description.
+3. Keep descriptions concise, factual, and neutral.
+4. Submit a Pull Request with a descriptive title.
 
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
+---
 
 ## Support & Share
 
+If you find this curated ecosystem directory helpful:
+- ⭐ **Star this repository** on GitHub.
+- 🍴 **Fork and contribute** new tools and papers.
+- 📢 **Share** with colleagues and AI agent communities on X/Twitter, LinkedIn, and Reddit.
+- ☕ **Sponsor** open-source tooling on [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
 
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
+---
 
 ## Disclaimer
 
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-Use code with caution.
-
-• Security & Prompt Injection Warning: Autonomous OS and browser agents possess direct mouse, keyboard, shell, and authenticated session access; always run untrusted web-browsing or computer-use agents inside isolated virtual machines or containers (Cua, Docker, Steel), require human confirmation for destructive or financial actions, and guard against indirect prompt injection hidden inside webpages.
-
-• Ensure web automation and scraping workflows respect website Terms of Service, robots.txt policies, and applicable data privacy laws.
-
-Made for AI agent engineers, RPA/QA automation architects, security researchers, and open-source contributors.
-
-Let's make desktop automation and autonomous OS agents more open, sandboxed, and reliable.
+This repository is community-curated for informational, benchmarking, and research purposes. Autonomous OS and browser agents operate with direct mouse, keyboard, and network execution capabilities. Always test autonomous computer-use agents within isolated sandboxes or virtual machines, enforce human-in-the-loop gates for sensitive actions, and observe target website Terms of Service and data privacy policies.
