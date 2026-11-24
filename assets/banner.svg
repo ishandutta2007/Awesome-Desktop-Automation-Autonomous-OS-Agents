@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d18" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Filters for Glow Effects -->
+    <filter id="glow-light" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.15) translate(25px, -15px); opacity: 0.65; }
+    }
+    @keyframes floatPillSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes floatPillFast {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-14px); }
+    }
+    @keyframes cursorMove {
+      0% { transform: translate(160px, 310px); }
+      25% { transform: translate(320px, 280px); }
+      50% { transform: translate(600px, 320px); }
+      75% { transform: translate(900px, 290px); }
+      100% { transform: translate(160px, 310px); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-50px); opacity: 0; }
+      50% { opacity: 0.4; }
+      100% { transform: translateY(450px); opacity: 0; }
+    }
+    @keyframes gridShimmer {
+      0%, 100% { opacity: 0.12; }
+      50% { opacity: 0.25; }
+    }
+    .orb-1 { animation: pulseOrb 10s ease-in-out infinite; }
+    .orb-2 { animation: pulseOrb 12s ease-in-out infinite reverse; }
+    .float-slow { animation: floatPillSlow 5s ease-in-out infinite; }
+    .float-fast { animation: floatPillFast 4.2s ease-in-out infinite; }
+    .float-mid { animation: floatPillSlow 6s ease-in-out infinite 1s; }
+    .cursor-track { animation: cursorMove 14s ease-in-out infinite; }
+    .scanner { animation: scanline 8s linear infinite; }
+    .grid-lines { animation: gridShimmer 6s ease-in-out infinite; }
+
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      fill: #ffffff;
+      letter-spacing: -1px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 19px;
+      fill: #94a3b8;
+      letter-spacing: 0.2px;
+    }
+    .tagline-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      fill: #38bdf8;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+  </style>
+
+  <!-- Background Base Canvas -->
+  <rect width="1200" height="420" rx="20" fill="url(#bg-grad)" />
+
+  <!-- Animated Glowing Atmospheric Orbs (Deep Background) -->
+  <g class="orb-1">
+    <circle cx="200" cy="100" r="140" fill="#38bdf8" opacity="0.2" filter="url(#glow-light)" />
+    <circle cx="1020" cy="320" r="160" fill="#a855f7" opacity="0.18" filter="url(#glow-light)" />
+  </g>
+  <g class="orb-2">
+    <circle cx="950" cy="90" r="130" fill="#6366f1" opacity="0.22" filter="url(#glow-light)" />
+    <circle cx="280" cy="350" r="120" fill="#06b6d4" opacity="0.16" filter="url(#glow-light)" />
+  </g>
+
+  <!-- Cyber Grid Matrix (Background) -->
+  <g class="grid-lines" stroke="#334155" stroke-width="1" opacity="0.18">
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+    <line x1="120" y1="0" x2="120" y2="420" />
+    <line x1="240" y1="0" x2="240" y2="420" />
+    <line x1="360" y1="0" x2="360" y2="420" />
+    <line x1="480" y1="0" x2="480" y2="420" />
+    <line x1="600" y1="0" x2="600" y2="420" />
+    <line x1="720" y1="0" x2="720" y2="420" />
+    <line x1="840" y1="0" x2="840" y2="420" />
+    <line x1="960" y1="0" x2="960" y2="420" />
+    <line x1="1080" y1="0" x2="1080" y2="420" />
+  </g>
+
+  <!-- Horizontal Laser Scanline (Deep Background) -->
+  <line class="scanner" x1="0" y1="0" x2="1200" y2="0" stroke="url(#primary-glow)" stroke-width="2" />
+
+  <!-- Outer Card Frame -->
+  <rect x="2" y="2" width="1196" height="416" rx="18" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.5" />
+
+  <!-- Dynamic Feature Badges / Floating Component Nodes (Subtle Midground) -->
+  <g class="float-slow" filter="url(#subtle-shadow)">
+    <g transform="translate(80, 320)">
+      <rect width="180" height="42" rx="21" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
+      <circle cx="24" cy="21" r="6" fill="#38bdf8" />
+      <text x="38" y="26" class="pill-text">Autonomous OS</text>
+    </g>
+  </g>
+
+  <g class="float-fast" filter="url(#subtle-shadow)">
+    <g transform="translate(290, 320)">
+      <rect width="180" height="42" rx="21" fill="url(#card-grad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6" />
+      <circle cx="24" cy="21" r="6" fill="#818cf8" />
+      <text x="38" y="26" class="pill-text">Computer-Use AI</text>
+    </g>
+  </g>
+
+  <g class="float-mid" filter="url(#subtle-shadow)">
+    <g transform="translate(500, 320)">
+      <rect width="195" height="42" rx="21" fill="url(#card-grad)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6" />
+      <circle cx="24" cy="21" r="6" fill="#c084fc" />
+      <text x="38" y="26" class="pill-text">VLM GUI Vision</text>
+    </g>
+  </g>
+
+  <g class="float-slow" filter="url(#subtle-shadow)">
+    <g transform="translate(725, 320)">
+      <rect width="185" height="42" rx="21" fill="url(#card-grad)" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.6" />
+      <circle cx="24" cy="21" r="6" fill="#34d399" />
+      <text x="38" y="26" class="pill-text">Browser Automation</text>
+    </g>
+  </g>
+
+  <g class="float-fast" filter="url(#subtle-shadow)">
+    <g transform="translate(940, 320)">
+      <rect width="180" height="42" rx="21" fill="url(#card-grad)" stroke="#f472b6" stroke-width="1.2" stroke-opacity="0.6" />
+      <circle cx="24" cy="21" r="6" fill="#f472b6" />
+      <text x="38" y="26" class="pill-text">Sandboxed Runtimes</text>
+    </g>
+  </g>
+
+  <!-- Dynamic Agent Autonomous Cursor (Simulating GUI Interaction) -->
+  <g class="cursor-track" opacity="0.85">
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.6">
+      <animate attributeName="r" values="8;20;8" dur="2.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <path d="M 0 0 L 0 20 L 5 16 L 10 24 L 14 22 L 9 14 L 15 14 Z" fill="#ffffff" stroke="#0284c7" stroke-width="1.5" />
+  </g>
+
+  <!-- FOREGROUND: Header & Typography Layer (Always Clear and on Top) -->
+  <g transform="translate(0, 0)">
+    <!-- Category Pill Tag -->
+    <g transform="translate(600, 68)">
+      <rect x="-170" y="-18" width="340" height="34" rx="17" fill="#0f172a" fill-opacity="0.9" stroke="url(#accent-cyan)" stroke-width="1.5" />
+      <circle cx="-146" cy="-1" r="5" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="-132" y="4" class="tagline-text">Curated Autonomous Agent Directory</text>
+    </g>
+
+    <!-- Main Title with Gradient Fill -->
+    <text x="600" y="142" text-anchor="middle" class="title-text" filter="url(#subtle-shadow)">
+      Desktop Automation &amp; Autonomous OS Agents
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="194" text-anchor="middle" class="subtitle-text">
+      The definitive index of Computer-Use AI, Multimodal GUI Agents &amp; Cloud Browser Sandboxes
+    </text>
+
+    <!-- Decorative Center Divider -->
+    <g transform="translate(450, 230)">
+      <line x1="0" y1="0" x2="300" y2="0" stroke="url(#primary-glow)" stroke-width="2.5" stroke-linecap="round" />
+      <circle cx="150" cy="0" r="4.5" fill="#c084fc" />
+    </g>
+
+    <!-- Tech Specs / Highlights Sub-row -->
+    <g transform="translate(600, 272)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">
+      <text>
+        <tspan fill="#38bdf8">●</tspan> Claude Computer Use &nbsp;&nbsp;|&nbsp;&nbsp; 
+        <tspan fill="#818cf8">●</tspan> Browser-Use &nbsp;&nbsp;|&nbsp;&nbsp; 
+        <tspan fill="#c084fc">●</tspan> OpenAI Operator &nbsp;&nbsp;|&nbsp;&nbsp; 
+        <tspan fill="#34d399">●</tspan> UI-TARS &nbsp;&nbsp;|&nbsp;&nbsp; 
+        <tspan fill="#f472b6">●</tspan> Stagehand &amp; Playwright
+      </text>
+    </g>
+  </g>
+</svg>

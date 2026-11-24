@@ -1,45 +1,56 @@
-# Awesome Desktop Automation & Autonomous OS Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Desktop Automation & Autonomous OS Agents 🤖 💻 [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 
-> A curated list of **Autonomous OS Agents**, **Computer-Use AI**, **Desktop Automation Frameworks**, **GUI Agents**, and **AI Browser Automation Runtimes**.
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Desktop Automation and Autonomous OS Agents Banner" width="100%" />
+</p>
 
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents?style=social)](https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents?style=social)](https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/network/members)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/pulls)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+> 🚀 A comprehensive, curated directory of **Autonomous OS Agents**, **Computer-Use AI (CUA)**, **Desktop Automation Frameworks**, **Multimodal GUI Agents**, and **AI Browser Automation Runtimes**.
 
----
-
-## Overview
-
-Welcome to the definitive ecosystem directory tracking **Autonomous OS Agents**, **Computer-Using Agents (CUA)**, **VLM Desktop Controllers**, and **Headless Cloud Browser Grids**. These autonomous systems observe screens, interpret graphical user interfaces (GUIs) across macOS, Windows, and Linux via Vision-Language Models (VLMs) and accessibility trees, and orchestrate mouse clicks, keyboard keystrokes, and complex multi-app workflows.
-
-Whether you are building next-generation Robotic Process Automation (RPA), autonomous web-scraping agents, automated QA testing pipelines, or self-operating computers, this directory indexes both leading commercial platforms and top open-source projects.
-
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Key Architectural Patterns](#key-architectural-patterns)
-- [How to Contribute](#how-to-contribute)
-- [Support & Share](#support--share)
-- [Disclaimer](#disclaimer)
+<p align="left">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Dsscord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📖 Overview
 
-The global **Autonomous AI Agents & Computer-Use** market is valued at approximately **$5.8B – $10.5B in 2025–2026** and is accelerating at an unprecedented compound annual growth rate (**CAGR of 40% – 46%**), projected to eclipse **$52B – $70B by 2030**. 
+Welcome to the definitive ecosystem index tracking **Autonomous OS Agents**, **Computer-Using Agents (CUA)**, **Vision-Language Desktop Controllers**, and **Headless Cloud Browser Grids**! 🌐
 
-The sector exhibits **moderate fragmentation with aggressive foundational consolidation**: frontier AI hyperscalers (Microsoft, OpenAI, Anthropic, Amazon) anchor the underlying vision-reasoning models and cloud VM runtime layers in a winner-take-most dynamic, while specialized vertical startups and open-source ecosystems rapidly proliferate across niche execution runtimes, stealth browser grids, and sandboxed OS virtualization.
+These autonomous systems perceive graphical user interfaces (GUIs) across macOS, Windows, and Linux via Vision-Language Models (VLMs) and accessibility trees, and orchestrate mouse clicks, keyboard keystrokes, and complex multi-app workflows. 🎯
+
+Whether you are engineering next-generation Robotic Process Automation (RPA), autonomous web-scraping pipelines, self-healing automated QA suites, or self-operating desktop environments, this index organizes both commercial cloud platforms and cutting-edge open-source projects. 🛠️
 
 ---
 
-## SaaS/Hosted Platforms
+## 📑 Table of Contents
 
-The following SaaS and hosted platforms provide managed infrastructure, cloud browser farms, or turnkey computer-operating agents. Sorted in descending order by company scale (market valuation / enterprise capitalization).
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Key Architectural Patterns](#️-key-architectural-patterns)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global **Autonomous AI Agents & Computer-Use** market is valued at approximately **$5.8B – $10.5B in 2025–2026** and is accelerating at an unprecedented compound annual growth rate (**CAGR of 40% – 46%**), projected to eclipse **$52B – $70B by 2030**. 📈
+
+The sector exhibits **moderate fragmentation with aggressive foundational consolidation**: frontier AI hyperscalers (Microsoft, OpenAI, Anthropic, Amazon) anchor the underlying vision-reasoning models and cloud VM runtime layers in a winner-take-most dynamic, while specialized vertical startups and open-source ecosystems rapidly proliferate across niche execution runtimes, stealth browser grids, and sandboxed OS virtualization. ⚡
+
+---
+
+## ☁️ SaaS/Hosted Platforms
+
+The following SaaS and hosted platforms provide managed infrastructure, cloud browser farms, or turnkey computer-operating agents. Sorted in descending order by company scale (market valuation / enterprise capitalization). 🏢
 
 | Product / Platform | Company Size (Valuation / Revenue) | Pricing (Starting Paid Tier) | Free Tier / Trial Limits | Description & Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
@@ -56,9 +67,9 @@ The following SaaS and hosted platforms provide managed infrastructure, cloud br
 
 ---
 
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
 
-Explore the premier open-source frameworks, desktop sandboxes, and browser drivers power-charging autonomous agents. Repositories are ordered in descending rank by GitHub Star count.
+Explore the premier open-source frameworks, desktop sandboxes, and browser drivers power-charging autonomous agents. Repositories are ordered in descending rank by GitHub Star count. 🌟
 
 | Project & Repo Link | GitHub Stars | Core Language / Stack | Primary Focus & Category | Key Features & Notes |
 | :--- | :---: | :--- | :--- | :--- |
@@ -86,9 +97,9 @@ Explore the premier open-source frameworks, desktop sandboxes, and browser drive
 
 ---
 
-## Key Architectural Patterns
+## 🏗️ Key Architectural Patterns
 
-Modern autonomous desktop automation systems generally utilize one of three primary architectural paradigms:
+Modern autonomous desktop automation systems generally utilize one of three primary architectural paradigms: 🏛️
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -111,33 +122,43 @@ Modern autonomous desktop automation systems generally utilize one of three prim
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-1. **Pure Vision-Language GUI Agents**: Capture screenshots, run them through screen-parsing models (e.g. `OmniParser`, `UI-TARS`), and generate mouse click $(x, y)$ coordinates and keystrokes.
-2. **Hybrid Accessibility + DOM Agents**: Combine HTML accessibility trees, DOM selectors, and Playwright CDP sessions for high-accuracy web automation (e.g. `Browser-Use`, `Stagehand`, `Skyvern`).
-3. **Sandboxed Virtualized Runtimes**: Isolate the agent inside secure lightweight virtual machines or disposable cloud browsers to protect the host machine against destructive actions or prompt injection (e.g. `Cua`, `E2B`, `Steel Browser`, `Browserbase`).
+1. **Pure Vision-Language GUI Agents**: Capture screenshots, run them through screen-parsing models (e.g. `OmniParser`, `UI-TARS`), and generate mouse click $(x, y)$ coordinates and keystrokes. 👁️
+2. **Hybrid Accessibility + DOM Agents**: Combine HTML accessibility trees, DOM selectors, and Playwright CDP sessions for high-accuracy web automation (e.g. `Browser-Use`, `Stagehand`, `Skyvern`). 🌐
+3. **Sandboxed Virtualized Runtimes**: Isolate the agent inside secure lightweight virtual machines or disposable cloud browsers to protect the host machine against destructive actions or prompt injection (e.g. `Cua`, `E2B`, `Steel Browser`, `Browserbase`). 🛡️
 
 ---
 
-## How to Contribute
+## 📈 Star History
 
-1. Fork the repository.
-2. Add or update entries in `README.md` following the table schema:
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Desktop-Automation-Autonomous-OS-Agents&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions make the open-source community thrive! 🌟
+
+1. 🍴 **Fork the repository**.
+2. 📝 **Add or update entries** in `README.md` following the table schema:
    - For SaaS products: include official link, company size/valuation, specific starting price, and specific free tier/trial limits.
    - For Open-Source projects: include GitHub repo link, star badge (`style=social&color=white` linking to stargazers), language, category, and description.
-3. Keep descriptions concise, factual, and neutral.
-4. Submit a Pull Request with a descriptive title.
+3. 🎯 **Keep descriptions concise, factual, and neutral**.
+4. 🚀 **Submit a Pull Request** with a descriptive title.
 
 ---
 
-## Support & Share
+## 💖 Support
 
-If you find this curated ecosystem directory helpful:
-- ⭐ **Star this repository** on GitHub.
-- 🍴 **Fork and contribute** new tools and papers.
-- 📢 **Share** with colleagues and AI agent communities on X/Twitter, LinkedIn, and Reddit.
-- ☕ **Sponsor** open-source tooling on [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+Thank you so much for exploring and supporting this curated resource! 💖
+
+If you find this ecosystem directory useful, please consider:
+- ⭐ **Starring this repository** to help others discover it.
+- 🍴 **Forking and sharing** with your network and team.
+- 📢 **Spreading the word** on X/Twitter, LinkedIn, Discord, and Reddit.
+- ☕ **Buying me a coffee / Sponsoring my open-source work** on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your support helps keep this curated list up to date with the latest advancements in AI agent engineering!
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
-This repository is community-curated for informational, benchmarking, and research purposes. Autonomous OS and browser agents operate with direct mouse, keyboard, and network execution capabilities. Always test autonomous computer-use agents within isolated sandboxes or virtual machines, enforce human-in-the-loop gates for sensitive actions, and observe target website Terms of Service and data privacy policies.
+This repository is community-curated for informational, benchmarking, and research purposes. Autonomous OS and browser agents operate with direct mouse, keyboard, and network execution capabilities. Always test autonomous computer-use agents within isolated sandboxes or virtual machines, enforce human-in-the-loop gates for sensitive actions, and observe target website Terms of Service and data privacy policies. 🛡️
