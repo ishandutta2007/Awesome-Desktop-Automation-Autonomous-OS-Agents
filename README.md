@@ -69,7 +69,7 @@ The following SaaS and hosted platforms provide managed infrastructure, cloud br
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore the premier open-source frameworks, desktop sandboxes, and browser drivers power-charging autonomous agents. Repositories are ordered in descending rank by GitHub Stars_Count. 🌟
+Explore the premier open-source frameworks, desktop sandboxes, and browser drivers power-charging autonomous agents. Repositories are ordered in descending rank by GitHub_Stars_Count. 🌟
 
 | Project & Repo Link | GitHub_Stars | Core Language / Stack | Primary Focus & Category | Key Features & Notes |
 | :--- | :---: | :--- | :--- | :--- |
